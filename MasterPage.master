@@ -1,0 +1,357 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .style31
+        {
+            margin-left: 70px;
+        }
+        .style8
+        {
+            text-align: center;
+            margin-left: 15px;
+            margin-top: 0px;
+            width: 1068px;
+            margin-bottom: 0px;
+            height: 162px;
+        }
+        .style3
+        {
+            width: 315px;
+            text-align: center;
+            height: 140px;
+        }
+        .style2
+        {
+            width: 197px;
+            height: 192px;
+        }
+        .style4
+        {
+            width: 840px;
+            height: 140px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        .style20
+        {
+            font-size: xx-large;
+            color: #000000;
+        }
+        .style21
+        {
+            font-size: x-large;
+        }
+        .style40
+        {
+            color: #003300;
+        }
+        .style39
+        {
+            color: #99FF99;
+        }
+        .style22
+        {
+            font-size: large;
+        }
+        .style24
+        {
+            width: 101%;
+            height: 50px;
+        }
+        .style28
+        {
+            width: 401px;
+            font-size: medium;
+            text-align: left;
+            height: 24px;
+            color: #999966;
+        }
+        .style38
+        {
+            color: #999966;
+        }
+        .style29
+        {
+            height: 24px;
+            font-size: medium;
+            color: #999966;
+        }
+        .style26
+        {
+            width: 401px;
+            font-size: medium;
+            text-align: left;
+            color: #999966;
+        }
+        .style27
+        {
+            text-align: center;
+            font-size: medium;
+            color: #999966;
+        }
+        .style13
+        {
+            text-decoration: none;
+        }
+        .style30
+        {
+            font-size: medium;
+            color: #999966;
+        }
+        .style7
+        {
+            text-align: center;
+            height: 140px;
+            width: 244px;
+        }
+        .style6
+        {
+            width: 259px;
+            height: 195px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+        .style80
+        {
+            width: 1069px;
+            height: 23px;
+            margin-left: 14px;
+        }
+        .style95
+        {
+            width: 1069px;
+            height: 35px;
+            margin-left: 14px;
+        }
+        .style96
+        {
+            width: 3px;
+            font-size: large;
+            color: #333333;
+            text-align: center;
+            height: 22px;
+        }
+        .style98
+        {
+            width: 119px;
+            font-size: large;
+            color: #000000;
+            text-align: center;
+            height: 22px;
+        }
+        .style104
+        {
+            width: 101px;
+            font-size: large;
+            color: #000000;
+            text-align: center;
+            height: 22px;
+        }
+        .style105
+        {
+            width: 141px;
+            font-size: large;
+            color: #333333;
+            text-align: center;
+            height: 22px;
+        }
+        .style106
+        {
+            width: 135px;
+            font-size: large;
+            color: #000000;
+            text-align: center;
+            height: 22px;
+        }
+        .style107
+        {
+            color: #000000;
+        }
+        .style126
+        {
+            width: 18%;
+            height: 192px;
+            color: #333333;
+        }
+        .style163
+        {
+            height: 13px;
+            font-size: large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style164
+        {
+            height: 24px;
+            font-size: large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style165
+        {
+            height: 20px;
+            font-size: large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style166
+        {
+            height: 32px;
+            font-size: large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style167
+        {
+            height: 33px;
+            font-size: large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style169
+        {
+            height: 31px;
+            font-size: large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style170
+        {
+            font-size: large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style171
+        {
+            color: #333333;
+        }
+        .style172
+        {
+            color: #800000;
+        }
+        </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div class="style31">
+        <table class="style8">
+            <tr>
+                <td class="style3">
+                    <img alt="logo" class="style2" src="Images/editedLogonew.jpg" /></td>
+                <td class="style4" 
+                    
+                    
+                    style="background-image: url('/sweatproject/Images/DSC00490.jpg'); background-position: -23px -73px; background-color: #C0C0C0;">
+                    <span class="style20"><strong>SWEAT</strong></span><strong><br 
+                        class="style40" />
+                    </strong><span class="style21"><span class="style172"><strong>Society for Welfare 
+                    Educational &amp; Awareness Training</strong></span><span class="style39"><br />
+                    </span><span class="style22">
+                    <br />
+                    <table class="style24" frame="void">
+                        <tr>
+                            <td class="style28">
+                                <strong><span class="style38">Social Service Reg.No:CPC/V/31/96&nbsp; </span>
+                                </strong>
+                            </td>
+                            <td class="style29">
+                                <strong>187/41, Dumburugiriya Rd,</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="style26">
+                                <strong>Contact No: 0094512222125, 0094776001904&nbsp;&nbsp; </strong>
+                            </td>
+                            <td class="style27">
+                                <strong>Hatton </strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style26">
+                                <span class="style38"><strong>Email: </strong></span><strong><a class="style13" 
+                                    href="mailto:rani_276@yahoo.com"><span class="style38">rani_276@yahoo.com</span></a></strong><span 
+                                    class="style38"><strong>&nbsp;&nbsp; </strong></span>
+                            </td>
+                            <td class="style30">
+                                <strong>&nbsp;Sri Lanka&nbsp;&nbsp; </strong>
+                            </td>
+                        </tr>
+                    </table>
+                    </span></span>
+                </td>
+                <td class="style7">
+                    <img alt="tea plucker" class="style6" src="Images/Photo%2013.jpg" /></td>
+            </tr>
+        </table>
+        <table bgcolor="White" border="0" class="style95" >
+            <tr>
+                <td class="style98">
+                    <a class="style13" href="About.aspx"><span class="style171">About</span></a></td>
+                <td class="style106">
+                    <a class="style13" href="WhatsHappening.aspx"><span class="style171">What&#39;s Happening</span></a></td>
+                <td class="style105">
+                    <a class="style13" href="MakeADifference.aspx"><span class="style171">Make a Difference</span></a></td>
+                <td class="style104">
+                    <a class="style13" href="Get_Involved.aspx"><span class="style171">Get Involved</span></a></td>
+                <td class="style96">
+                    <a class="style13" href="Projects.aspx"><span class="style107">&nbsp;</span><span 
+                        class="style171">Projects</span></a></td>
+            </tr>
+        </table>
+         <table bgcolor="White" class="style80" >
+         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+             <tr>
+                 <td>
+                     <table class="style126">
+                          <tr>
+                        <td class="style163" style="background-color: #C0C0C0">
+                            Gallery</td>
+                    </tr>
+                    <tr>
+                        <td class="style164" style="background-color: #C0C0C0">
+                            Beneficiaries</td>
+                        <td rowspan="6" class="style123" colspan="4"></td>
+                           
+                    </tr>
+                    <tr>
+                        <td class="style165" style="background-color: #C0C0C0">
+                            Awareness</td>
+                    </tr>
+                    <tr>
+                        <td class="style166" style="background-color: #C0C0C0">
+                            Discussion Room</td>
+                    </tr>
+                    <tr>
+                        <td class="style167" style="background-color: #C0C0C0">
+                            Feedback</td>
+                    </tr>
+                    <tr>
+                        <td class="style170" style="background-color: #C0C0C0">
+                            Tell-A-Friend</td>
+                    </tr>
+                    <tr>
+                        <td class="style169" style="background-color: #C0C0C0">
+                            Achievements</td>
+                    </tr>
+                     </table>
+                 </td>
+             </tr>
+        
+        </asp:ContentPlaceHolder>
+        </table>
+    </div>
+  
+    
+      
+       
+    
+        
+ 
+   
+    </form>
+   <%-- <form id="form1" runat="server">--%>
+  
+   <%-- </form>--%>
+</body>
+</html>
